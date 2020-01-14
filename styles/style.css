@@ -10,8 +10,6 @@ body {
 
 .navbar {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     display: block;
     width: 100%;
 
@@ -21,8 +19,8 @@ body {
     float: left;
     display: block;
     text-align: center;
-    padding: 10px 6px;
     margin: 0px;
+    padding: 0px;
     text-decoration: none;
 }
 
@@ -31,9 +29,27 @@ body {
     float:right;
     display: block;
     text-align: center;
-    padding: 10px 6px;
-    margin: 0px;
     text-decoration: none;
+}
+
+.li-nav-c {
+    float:right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin: 0;
+    padding-left: 6px;
+    padding-right: 6px;
+    border: 0;
+}
+
+.li-nav-d {
+    float:right;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 a {
@@ -43,10 +59,22 @@ a {
     text-decoration: none;
 }
 
+.profile-icon {
+    height: 35px;
+    width: 35px;
+
+}
+
+.menu-icon {
+    height: 35px;
+    width: 35px;
+
+}
+
 .logo {
     display: block;
     position: absolute;
-    margin-top: 14%;
+    margin-top: 12%;
     margin-right: 50%;;
     margin-bottom: 50%;
     margin-left: 38%;
@@ -72,10 +100,9 @@ a {
     outline: none;
     border: none;
     float: right;
-    margin-right: 24px;
+    margin-right: 26px;
     color: black;
     font-size: 14px;
-    transition: 0.4s;
     line-height: 10px;
     width: 400px;
 }
@@ -84,6 +111,46 @@ a {
     float: left;
     padding: 5px 0px 5px 8px;
 }
+
+.buttons {
+    position: absolute;
+    display: block;
+    float: center;
+    margin-top: 390px;
+    margin-left: 490px;
+
+}
+
+.btn-style {
+    color: black;
+    background-color: lightgray;
+    border: none;
+    margin: 5px;
+    width: 125px;
+    height: 38px;
+    font-size: 14px;
+    border-radius: 3px;
+
+}
+
+.lang-option {
+    position: absolute;
+    display: inline;
+    float: center;
+    margin-top: 455px;
+    margin-left: 390px;
+    padding: 0px
+
+}
+
+.lang-option a {
+    position: absolute;
+    display: inline;
+    padding: 0;
+    margin-left: 8px;
+    color: blue;
+}
+
 
 .footerbar2 {
     background-color: #E8E8E8;
