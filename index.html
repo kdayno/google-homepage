@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--  <meta charset="utf-8"> (Remember to add default character set) -->
+        <meta charset="utf-8">
         <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
         <link href="styles/style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/1b7ebf5297.js" crossorigin="anonymous"></script>
         <title>Google</title>
 
     </head>
@@ -19,8 +20,13 @@
         </ul>
         <br>
         <img src="images/googlelogo.png" alt="Google logo" class="logo">
-        <br>
-        <input type="text" name="search" placeholder="Search..">
+
+        <div class="search-box">
+            <input class="search-txt" name="search" placeholder="">
+            <i class="fas fa-search"></i>
+        </div>
+        
+
         <br>
         <button class="btn search">Google Search</button>
         <button class="btn lucky">I'm Feeling Lucky</button>
@@ -31,14 +37,19 @@
 
     </body>
 
-    <div class="location">
+    <div class="footerbar2">
         <p>Canada</p>
     </div>
 
-    <div class="footernavbar">
-            <a href="#advertising">Advertising</a>
-            <a href="#business">Business</a>
-            <a href="#howsearchworks">How Search works</a>
+    <div>
+        <ul class="footernavbar">
+            <li class="footernavbar-left"><a href="#advertising">Advertising</a></li>
+            <li class="footernavbar-left"><a href="#business">Business</a></li>
+            <li class="footernavbar-left"><a href="#howsearchworks">How Search works</a></li>
+            <li class="footernavbar-right"><a href="#Settings">Settings</a></li>
+            <li class="footernavbar-right"><a href="#Terms">Terms</a></li>
+            <li class="footernavbar-right"><a href="#Privacy">Privacy</a></li>
+        </ul>
     </div>
 
 
